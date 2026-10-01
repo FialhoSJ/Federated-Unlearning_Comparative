@@ -1,0 +1,31 @@
+.venv/
+.venv-*/
+venv/
+venv-*/
+.uv-cache/
+.uv-python/
+**/__pycache__/
+**/*.py[cod]
+**/*.log
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.npz
+**/*.tar.gz
+
+# Datasets and generated results stay local.
+/data/*
+!/data/.gitkeep
+/results/*
+!/results/.gitkeep
+
+# Project-specific generated files.
+**/customdata/
+**/fedtask/
+**/fedtasksave/
+**/tfedplat/data/
+**/tfedplat/pool/
+**/dataset/cifar10/
+**/checkpoint/
+**/checkpoints/
+**/save_model/

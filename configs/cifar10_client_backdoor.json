@@ -1,0 +1,21 @@
+{
+  "dataset": "cifar10",
+  "data_root": "./data",
+  "num_clients": 10,
+  "target_client": 0,
+  "client_fraction": 1.0,
+  "seed": 42,
+  "image_size": 32,
+  "num_classes": 10,
+  "batch_size": 128,
+  "local_epochs": 1,
+  "rounds": 5,
+  "learning_rate": 0.01,
+  "momentum": 0.9,
+  "poison_fraction": 1.0,
+  "trigger_size": 4,
+  "trigger_value": 1.0,
+  "target_label": 0,
+  "download": false,
+  "output_dir": "./results/cifar10_client_backdoor"
+}
