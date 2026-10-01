@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Benchmark comparativo de federated unlearning
 
 Esta pasta reúne o benchmark e snapshots locais dos códigos de FedOSD, FedUP e Fast-FedUL. O repositório nativo do Maverick fica fora desta pasta; a adaptação Maverick usada na comparação comum está em `common/methods.py`.
@@ -28,3 +29,7 @@ O benchmark comum executa adaptações comparáveis em `common/methods.py`; os a
 ## Publicar no GitHub
 
 `data/`, `results/`, ambientes virtuais, caches, logs e checkpoints locais são ignorados pelo `.gitignore`. Assim, os datasets e saídas experimentais não entram no envio padrão. As configurações e o código para reproduzir os resultados permanecem incluídos.
+=======
+# Federated-Unlearnig_Comparative
+Comparative models Federated Unlearning
+>>>>>>> 1773049813132966383b012cd1b0d1e103842567
